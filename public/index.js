@@ -143,11 +143,11 @@ function sendTransaction(isAdding) {
     amountEl.value = "";
   });
 }
-
+// when user clicks add btn send transasction will run
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
-
+// when user clicks add btn send transasction will run
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };

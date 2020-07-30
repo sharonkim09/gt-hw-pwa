@@ -1,3 +1,4 @@
+// dependancies
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
@@ -19,7 +20,6 @@ const transactionSchema = new Schema(
     }
   }
 );
-
 const Transaction = mongoose.model("Transaction", transactionSchema);
-
+// exporting for use in other files
 module.exports = Transaction;
