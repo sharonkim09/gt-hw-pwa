@@ -1,7 +1,8 @@
-# nosql: Workout Tracker
+# Budget Tracker
 
 ## Description
-This application is a workout tracker where user is able to view, create, and track daily workouts. User can log multiple exercises in a workout on a given day. This application uses Mongo database with a Mongoose schema and handle routes with Express.
+This application is to allow user to access their budgets offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,9 +19,9 @@ This application is a workout tracker where user is able to view, create, and tr
 ## Usage
 [Link to GH Repo](https://github.com/sharonkim09/gt-hw-pwa)
 
-[Link to Deployed Website]()
+[Link to Deployed Website](https://powerful-citadel-45106.herokuapp.com/)
 
-![Screenshot of Workout Tracker]()
+![Screenshot of Workout Tracker](/public/assets/img/budget-screenshot.png)
 
 ## Credits
 The front end was already provided by the curriculum team. The instructor, Jonathan Watson, has worked through and provided solution to the assignment with the class. The instructions were provided to me by GT Full Stack Coding Program.

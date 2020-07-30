@@ -47,8 +47,10 @@
   <script src="index.js"></script>
   <script src="db.js"></script>
   <script>
+    // service worker entry point code
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
+        // found service worker
         navigator.serviceWorker.register("service-worker.js").then(reg => {
           console.log("We found your service worker file!", reg);
         });
